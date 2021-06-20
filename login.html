@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>LOGIN</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <nav class="navigation">
+    <div class="navbar-right">
+      <a href="index.html">HOME</a>
+      <a href="signup.html">SIGNUP</a>
+    </div>
+  </nav>
+	
+<div class="logo"></div>
+<div class="login-block">
+  <h1>Login</h1>
+  <input type="text" value="" placeholder="Username" id="username" />
+  <input type="password" value="" placeholder="Password" id="password" />
+  <button><a href="districts.html">SUBMIT</a></button>
+</div>
+</body>
+<style>
+.navigation{
+    padding-top:30px;
+    padding-bottom:30px;
+    position:absolute;
+    top:0;
+    width:100%;
+    z-index:1;
+  }
+  
+  .navbar-right{
+    float:right;
+    padding-right:10%;
+  }
+  
+  .navbar-right a{
+    text-decoration:none;
+    padding:10px;
+    color: #fff;
+    font-family:Arial;
+    font-weight:900;
+  }
+  
+  .navbar-right a:hover{
+    text-decoration:underline;
+  }
+  body {
+  background: url('https://www.pixelstalk.net/wp-content/uploads/2016/08/Best-Nature-Full-HD-Images-For-Desktop.jpg') no-repeat fixed center center;
+  background-size: cover;
+  font-family: Montserrat;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+
+.login-block {
+  width: 320px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  border-top: 5px solid #0e0707;
+  margin: 0 auto;
+  margin-top: 15em;
+}
+
+.login-block h1 {
+  text-align: center;
+  color: #000;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.login-block input {
+  width: 100%;
+  height: 42px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-family: Montserrat;
+  padding: 0 20px 0 50px;
+  outline: none;
+}
+
+.login-block input#username {
+  background: #fff url('http://i.imgur.com/u0XmBmv.png') 20px top no-repeat;
+  background-size: 16px 80px;
+}
+
+.login-block input#username:focus {
+  background: #fff url('http://i.imgur.com/u0XmBmv.png') 20px bottom no-repeat;
+  background-size: 16px 80px;
+}
+
+.login-block input#password {
+  background: #fff url('http://i.imgur.com/Qf83FTt.png') 20px top no-repeat;
+  background-size: 16px 80px;
+}
+
+.login-block input#password:focus {
+  background: #fff url('http://i.imgur.com/Qf83FTt.png') 20px bottom no-repeat;
+  background-size: 16px 80px;
+}
+
+.login-block input:active,
+.login-block input:focus {
+  border: 1px solid #1f0f10;
+}
+
+.login-block button {
+  width: 100%;
+  height: 40px;
+  background: #1b1a1a;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #635a5b;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: Montserrat;
+  outline: none;
+  cursor: pointer;
+}
+
+.login-block button:hover {
+  background: grey;
+}
+
+</style>
+</html>
